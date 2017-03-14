@@ -1,6 +1,11 @@
-#header {
-  background-color: salmon;
+#header, #footer {
+  background-color: green;
+  padding: 20px;
 
+}
+
+body {
+background-color: #63ff33;
 }
 
 h1 {
@@ -11,6 +16,67 @@ h1 {
 }
 
 #text_container {
-
+  padding: 20px;
   background-color: #d8ffcc;
+}
+
+a {
+  font-family: fantasy;
+  font-size: 2em
+
+}
+
+}
+h3 {
+}
+li {
+  font-size: 2em;
+  font-family:sans-serif;
+}
+img {
+  display:block;
+  margin: auto;
+  width: 25%;
+  height: 25%;
+}
+p {
+
+}
+
+#gallery {
+  width: 600px;
+  overflow: hidden;
+  position: relative;
+  z-index: 1;
+  margin: 100px auto;
+  border: 2px solid #003C72;
+}
+
+#navigation {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  float: left;
+}
+
+#navigation li {
+  padding: 0;
+  margin: 0;
+  float: left;
+  clear: both;
+}
+
+#navigation li a img {
+  display: block;
+  border: none;
+}
+
+#navigation li a {
+  display: block;
+}
+#full-picture {
+  width: 500px;
+  height: 375px;
+  overflow: hidden;
+  float: left;
 }
