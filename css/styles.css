@@ -1,15 +1,18 @@
 #header, #footer {
-  background-color: green;
+  color: white;
+  background-color: #660000;
   padding: 20px;
 
 }
 
 body {
-background-color: #63ff33;
+background-color: #ff0000;;
+
 }
 
 h1 {
   text-align: center;
+
 }
 #subtitle{
   text-align: center;
@@ -17,11 +20,12 @@ h1 {
 
 #text_container {
   padding: 20px;
-  background-color: #d8ffcc;
+  background-color: #ffb3b3;
+   
 }
 
 a {
-  font-family: fantasy;
+  font-family: cursive;
   font-size: 2em
 
 }
@@ -41,42 +45,4 @@ img {
 }
 p {
 
-}
-
-#gallery {
-  width: 600px;
-  overflow: hidden;
-  position: relative;
-  z-index: 1;
-  margin: 100px auto;
-  border: 2px solid #003C72;
-}
-
-#navigation {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  float: left;
-}
-
-#navigation li {
-  padding: 0;
-  margin: 0;
-  float: left;
-  clear: both;
-}
-
-#navigation li a img {
-  display: block;
-  border: none;
-}
-
-#navigation li a {
-  display: block;
-}
-#full-picture {
-  width: 500px;
-  height: 375px;
-  overflow: hidden;
-  float: left;
 }
